@@ -9,9 +9,6 @@ class Wallet < ApplicationRecord
     end
 
     def use
-        logger.debug("スタート")
-        # sleep(10)
-        logger.debug("終了")
         self.count =1
     end
 end
